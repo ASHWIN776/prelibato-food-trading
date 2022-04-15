@@ -45,12 +45,24 @@ nav a:not(.nav-logo):hover{
     transition: none;
 }
 
+footer section{
+    border: 2px solid red;
+}
+footer section:first-child div{
+    width: 80%;
+    border: 2px solid red;
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 2rem 0;
+}
+
 
 @media only screen and (min-width: 961px) {
-    body {
-      background-color: #B2D6FF; /* Blue */
-    }
-
     nav{
         display: flex;
         justify-content: space-between;
@@ -64,6 +76,7 @@ nav a:not(.nav-logo):hover{
         flex-grow: 1;
         justify-content: center;
     }
+
     nav ul{
         display: flex;
         flex-grow: 1;
@@ -79,8 +92,31 @@ nav a:not(.nav-logo):hover{
         transition: border-color 800ms;
         border-radius: 2px;
     }
+
     nav a:not(.nav-logo):hover{
         border-color: black;
         text-decoration: none;
+    }
+
+    /* footer{
+        background-color: black;
+        color: white;
+    } */
+
+    footer section:first-child{
+        display: flex;
+    }
+
+    footer section:first-child div{
+        flex-basis: 20%;
+    }
+    
+    footer section:nth-child(2) ul{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    footer section:nth-child(2) div:last-child{
+        margin: 1rem 0;
     }
   }

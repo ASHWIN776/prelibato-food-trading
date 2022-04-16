@@ -1,5 +1,6 @@
 h1{
     text-align: center;
+    color: rgb(42, 96, 73);
 }
 
 #about-img{
@@ -9,7 +10,16 @@ h1{
     background-repeat: no-repeat;
 }
 
+#about-section{
+    padding: 0 2rem;
+}
+
 @media only screen and (min-width: 961px) {
+
+    h1{
+        font-size: 2rem;
+    }
+
     #about-section{
         width: 90%;
         margin: 0 auto;

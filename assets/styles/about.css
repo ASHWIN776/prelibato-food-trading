@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+}
+
+#about-img{
+    background-image: url(../images/about.jpg);
+    max-width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 961px) {
+    #about-section{
+        width: 90%;
+        max-height: ;
+        margin: 0 auto;
+        height: 100vh;
+        display: flex;
+    }
+
+    #about-section p{
+        line-height: 25px;
+    }
+
+    #about-img{
+        flex-basis: 100%;
+        margin: 1rem 2rem;
+
+    }
+
+    #about-img + div{
+        flex-grow: 1;
+        margin: 1rem 5rem;
+    }
+}

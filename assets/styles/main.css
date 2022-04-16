@@ -66,6 +66,15 @@ nav a:not(.nav-logo):hover{
     line-height: 1.5;
   }
 
+  .navbar-brand {
+    position: relative;
+    width: 50px;
+    height: 60px;
+    top: -50px;
+    right: 20px;
+    background-size: contain;
+  }
+
   
   .navbar-toggler:focus,
   .navbar-toggler:active,
@@ -78,12 +87,12 @@ nav a:not(.nav-logo):hover{
       border: none !important;
   }
   
-  .navbar-brand {
+  /* .navbar-brand {
     font-family: "Ubuntu";
     font-size: 1.5rem;
     font-weight: bold;
     color: black !important;
-  }
+  } */
   
   .nav-item {
     padding: 0 18px;

@@ -16,7 +16,7 @@ body{
 }
 
 /* Navbar styling */
-nav{
+/* nav{
     text-align: center;
     padding: 1.5rem 0;
 }
@@ -48,7 +48,59 @@ nav a:not(.nav-logo):hover{
     color: rgb(42, 96, 73);;
     letter-spacing: 5px;
     transition: none;
-}
+} */
+
+
+/*Headings*/
+
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    
+  }
+  
+  .section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
+  
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+      outline: none !important;
+      box-shadow: none;
+  }
+
+  .navbar-light .navbar-toggler {
+      border: none !important;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black !important;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+
+  .navbar_collapse {
+      flex-grow: 0 !important;
+  }
+  
+  .nav-link {
+    /* font-size: 1.2rem; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: black !important;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
 
 footer{
     padding-bottom: 1rem;
@@ -140,7 +192,7 @@ footer section:last-child .footer-link{
         transition: background-color 500ms;
     }
     
-    nav{
+    /* nav{
         display: flex;
         width: 90%;
         margin: 0 auto;
@@ -173,7 +225,7 @@ footer section:last-child .footer-link{
     nav a:not(.nav-logo):hover{
         border-color: black;
         text-decoration: none;
-    }
+    } */
 
     footer{
         width: 90%;

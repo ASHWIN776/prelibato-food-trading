@@ -12,7 +12,6 @@ h1{
 @media only screen and (min-width: 961px) {
     #about-section{
         width: 90%;
-        max-height: ;
         margin: 0 auto;
         height: 100vh;
         display: flex;

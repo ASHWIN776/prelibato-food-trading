@@ -191,6 +191,32 @@ footer section:last-child .footer-link{
     text-decoration: underline;
 }
 
+#us_desc{
+    text-align: center;
+}
+
+#us_desc p{
+    margin: 0.3rem 0;
+    font-weight: bold;  
+}
+
+#us_desc span{
+    background-color: rgb(42, 96, 73);
+    color: white;
+    display: inline-block;
+    padding: 0.3rem 0.8rem;
+    border-radius: 5px;
+}
+
+#us_desc_link{
+    color: white;
+}
+
+#us_desc_link:hover{
+    text-decoration: none;
+}
+
+
 @media only screen and (min-width: 961px) {
     header{
         position: absolute;

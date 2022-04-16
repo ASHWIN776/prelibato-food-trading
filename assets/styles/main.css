@@ -6,6 +6,11 @@ body, html{
     scroll-behavior: smooth;
 }
 
+
+body{
+    background-color: #FBF9F1;
+}
+
 *, *::after, *::before{
     box-sizing: inherit;
 }
@@ -40,33 +45,57 @@ nav a:not(.nav-logo):hover{
     text-decoration: underline;
 }
 .nav-logo{
-    color: #207DFF;
+    color: rgb(42, 96, 73);;
     letter-spacing: 5px;
     transition: none;
 }
 
-footer section{
-    border: 2px solid red;
+footer{
+    padding-bottom: 1rem;
 }
+
+footer section:first-child{
+    border-bottom: 2px solid;
+    margin: 0 3rem;
+}
+
 footer section:first-child div{
     width: 80%;
-    border: 2px solid red;
-    text-align: center;
     margin: 0 auto;
 }
 
 footer ul{
     list-style: none;
     margin: 0;
-    padding: 2rem 0;
+    padding: 0;
+}
+
+footer section:first-child li{
+    display: inline-block;
+    margin: 0.3rem 0;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    width: 100%;
 }
 
 
 @media only screen and (min-width: 961px) {
+    header{
+        position: absolute;
+        display: block;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+        transition: background-color 500ms;
+    }
+    
     nav{
         display: flex;
-        justify-content: space-between;
-        width: 100%;
+        width: 90%;
         margin: 0 auto;
         padding: 0.5rem;
     }
@@ -80,7 +109,8 @@ footer ul{
     nav ul{
         display: flex;
         flex-grow: 1;
-        justify-content: center;
+        justify-content: flex-start;
+
     }
     nav div, nav ul{
         margin-top: 0;
@@ -98,10 +128,12 @@ footer ul{
         text-decoration: none;
     }
 
-    /* footer{
-        background-color: black;
+    footer{
+        width: 90%;
+        background-color: rgb(42, 96, 73);
         color: white;
-    } */
+        margin: 0 auto;
+    }
 
     footer section:first-child{
         display: flex;
@@ -114,9 +146,20 @@ footer ul{
     footer section:nth-child(2) ul{
         display: flex;
         justify-content: space-around;
+        margin: 4rem 0;
+    }
+
+    footer section:first-child ul{
+        display: flex;
+        flex-direction: column;
     }
 
     footer section:nth-child(2) div:last-child{
         margin: 1rem 0;
+        text-align: center;
+    }
+
+    footer section:first-child div{
+        margin: 3rem;
     }
   }

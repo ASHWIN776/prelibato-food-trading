@@ -1,33 +1,40 @@
 .hero-content{
   margin: 0 auto;
-  text-align: center;
 }
 
 .hero-content button{
-  padding: 0.5rem 1rem;
   outline: none;
+  border-radius: 8px;
+  background-color: rgb(42, 96, 73);
+  color: white;
+  padding: 0.5rem 1rem;
+  border: 2px solid white;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: all 0.5s;
 }
 
-.hero div:first-child{
-  border: 2px solid red;
+.hero-content button:hover{
+  border: 2px solid rgb(42, 96, 73);
+  color: rgb(42, 96, 73);
+  background-color: white;
+  cursor: pointer;
 }
+
 
 .hero .img-div{
   max-width: 100%;
-  height: 50vh;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url("https://images.unsplash.com/photo-1540420828642-fca2c5c18abe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Zm9vZCUyMGluZ3JlZGllbnRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  /* background-repeat: no-repeat; */
+  background-image: url("../images/herobg.jpg");
 }
 
 .benefits{
-  border: 2px solid blue;
   margin: 2rem 0;
 }
 
 .benefits div{
   width: 60%;
-  border: 2px solid rebeccapurple;
   margin: 0 auto;
   text-align: center;
 }
@@ -35,7 +42,8 @@
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
   h1{
-    font-size: 2rem;
+    font-size: 3rem;
+    margin-bottom: 1rem;
   }
 
   .hero-content{
@@ -47,6 +55,7 @@
   .hero{
     display: flex;
     height: 100vh;
+    width: 90%;
   }
 
   .hero .img-div{
@@ -59,7 +68,9 @@
 
   .benefits {
     display: flex;
-    height: 40vh;
+    height: 60vh;
+    width: 90%;
+    margin: 0 auto;
     align-items: center;
   }
 

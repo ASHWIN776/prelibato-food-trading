@@ -70,7 +70,7 @@ nav a:not(.nav-logo):hover{
     position: relative;
     width: 50px;
     height: 60px;
-    top: -50px;
+    top: -45px;
     right: 20px;
     background-size: contain;
   }

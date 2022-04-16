@@ -84,7 +84,46 @@ footer section:first-child li{
 
 .nav-scroll{
     position: fixed;
+    width: 100%;
+    top: 0;
+    margin: 0;
     background-color: #FBF9F1;
+}
+
+footer{
+    background-color: rgb(42, 96, 73);
+    color: white;
+}
+
+footer{
+    padding: 2rem 0;
+}
+
+footer section:first-child ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer h3{
+    text-align: center;
+}
+
+footer section:nth-child(2) div:last-child{
+    margin: 1rem 0;
+    text-align: center;
+}
+
+footer section:nth-child(2) ul{
+    margin: 2rem 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+footer section:nth-child(2) ul li{
+    display: inline-block;
+    margin: 1rem 0;
 }
 
 @media only screen and (min-width: 961px) {
@@ -101,7 +140,6 @@ footer section:first-child li{
         display: flex;
         width: 90%;
         margin: 0 auto;
-        padding: 0.5rem;
     }
     nav > div{
         display: flex;
@@ -111,6 +149,7 @@ footer section:first-child li{
     }
 
     nav ul{
+        margin: 0rem;
         display: flex;
         flex-grow: 1;
         justify-content: flex-start;
@@ -134,8 +173,6 @@ footer section:first-child li{
 
     footer{
         width: 90%;
-        background-color: rgb(42, 96, 73);
-        color: white;
         margin: 0 auto;
     }
 
@@ -151,16 +188,6 @@ footer section:first-child li{
         display: flex;
         justify-content: space-around;
         margin: 4rem 0;
-    }
-
-    footer section:first-child ul{
-        display: flex;
-        flex-direction: column;
-    }
-
-    footer section:nth-child(2) div:last-child{
-        margin: 1rem 0;
-        text-align: center;
     }
 
     footer section:first-child div{

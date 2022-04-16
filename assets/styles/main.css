@@ -82,6 +82,10 @@ footer section:first-child li{
     width: 100%;
 }
 
+.nav-scroll{
+    position: fixed;
+    background-color: #FBF9F1;
+}
 
 @media only screen and (min-width: 961px) {
     header{
